@@ -47,3 +47,7 @@ Ensure all the required Python packages are installed:
 pip install -r requirements.txt
 ```
 
+### 5. Run
+
+Run producer.py and consumer.py.
+
