@@ -51,3 +51,15 @@ pip install -r requirements.txt
 
 Run producer.py and consumer.py.
 
+## Stop and clear topic's message
+
+To stop run:
+```bash
+bash scripts/stop_kafka.sh
+```
+
+To clear topic's message run:
+```bash
+bash scripts/clear_topics.sh
+```
+
