@@ -1,9 +1,6 @@
-Certainly! Here’s the code you can copy:
+# Tracker simulation
 
-````markdown
-# Project Name
-
-This project utilizes Kafka for message streaming and processing. Follow the instructions below to set up and run Kafka.
+This project simulates tracker.
 
 ## Prerequisites
 
