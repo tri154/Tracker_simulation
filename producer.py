@@ -20,7 +20,7 @@ with open('track_2.txt', 'r') as f:
                 # Convert array to list before sending to Kafka
                 producer.send('tracking', data_array.tolist())
                 results = []  # Reset for the next block
-                time.sleep(1)
+                time.sleep(5)
                 print("Sent")
         else:
             results.append(line)

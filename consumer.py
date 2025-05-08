@@ -1,5 +1,6 @@
 from kafka import KafkaConsumer
 import json
+import numpy as np
 
 # Create Kafka consumer
 consumer = KafkaConsumer(
@@ -15,5 +16,5 @@ print("Listening for messages on topic 'tracking'...")
 
 # Poll and print incoming messages
 for message in consumer:
-    print("Received:", message.value)
-    print(type(message.value))
+    data_list = message.value
+    data_array = np.array(data_list)  # Convert to NumPy array
